@@ -8,5 +8,33 @@
         <plural>true</plural>
         <value>Assessments</value>
     </caseValues>
+    <recordTypes>
+        <label></label>
+        <name>EAX_English_Test</name>
+    </recordTypes>
+    <recordTypes>
+        <label></label>
+        <name>FOF_Practice_Exams</name>
+    </recordTypes>
+    <recordTypes>
+        <label></label>
+        <name>FOF_Study_Guides</name>
+    </recordTypes>
+    <recordTypes>
+        <label></label>
+        <name>Interview</name>
+    </recordTypes>
+    <recordTypes>
+        <label></label>
+        <name>Mock_Test</name>
+    </recordTypes>
+    <recordTypes>
+        <label></label>
+        <name>Psychometric_Tests</name>
+    </recordTypes>
+    <recordTypes>
+        <label></label>
+        <name>Salesforce_Certification_Exam</name>
+    </recordTypes>
     <startsWith>Vowel</startsWith>
 </CustomObjectTranslation>
