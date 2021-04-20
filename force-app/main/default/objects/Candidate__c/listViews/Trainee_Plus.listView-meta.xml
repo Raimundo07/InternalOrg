@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Trainee_Plus</fullName>
+    <columns>NAME</columns>
+    <columns>Phone_number__c</columns>
+    <columns>Email_Address__c</columns>
+    <columns>CREATED_DATE</columns>
+    <filterScope>Mine</filterScope>
+    <filters>
+        <field>RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Candidate__c.Other</value>
+    </filters>
+    <label>Other</label>
+</ListView>

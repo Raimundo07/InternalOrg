@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Lead_Source__c</fullName>
+    <externalId>false</externalId>
+    <label>Lead Source</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>LinkedIn</fullName>
+                <default>false</default>
+                <label>LinkedIn</label>
+            </value>
+            <value>
+                <fullName>Facebook</fullName>
+                <default>false</default>
+                <label>Facebook</label>
+            </value>
+            <value>
+                <fullName>Google</fullName>
+                <default>false</default>
+                <label>Google</label>
+            </value>
+            <value>
+                <fullName>Computrabajo</fullName>
+                <default>false</default>
+                <label>Computrabajo</label>
+            </value>
+            <value>
+                <fullName>Un Mejor Empleo</fullName>
+                <default>false</default>
+                <label>Un Mejor Empleo</label>
+            </value>
+            <value>
+                <fullName>BuscoJobs</fullName>
+                <default>false</default>
+                <label>BuscoJobs</label>
+            </value>
+            <value>
+                <fullName>Referred</fullName>
+                <default>false</default>
+                <label>Referred</label>
+            </value>
+            <value>
+                <fullName>Blog</fullName>
+                <default>false</default>
+                <label>Blog</label>
+            </value>
+            <value>
+                <fullName>Universidad Don Bosco</fullName>
+                <default>false</default>
+                <label>Universidad Don Bosco</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Unassigned_Positions</fullName>
+    <columns>NAME</columns>
+    <columns>Job_Position__c</columns>
+    <columns>Web_Position_External_ID__c</columns>
+    <columns>Web_Position__c</columns>
+    <filterScope>Mine</filterScope>
+    <filters>
+        <field>Job_Position__c</field>
+        <operation>equals</operation>
+    </filters>
+    <label>Unassigned Positions</label>
+</ListView>

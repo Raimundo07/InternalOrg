@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AnimationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <animationFrequency>always</animationFrequency>
+    <developerName>Other_Candidate</developerName>
+    <isActive>true</isActive>
+    <masterLabel>Other Candidate</masterLabel>
+    <recordTypeContext>Custom</recordTypeContext>
+    <recordTypeName>Other</recordTypeName>
+    <sobjectType>Candidate__c</sobjectType>
+    <targetField>Candidate_Status__c</targetField>
+    <targetFieldChangeToValues>Hired</targetFieldChangeToValues>
+</AnimationRule>

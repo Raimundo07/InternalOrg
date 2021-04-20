@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BlackListed</fullName>
+    <active>true</active>
+    <errorConditionFormula>BlackListed__c == true &amp;&amp;  BlackList_Reason__c == null</errorConditionFormula>
+    <errorDisplayField>BlackList_Reason__c</errorDisplayField>
+    <errorMessage>Please add the reason why this candidate should be blacklisted</errorMessage>
+</ValidationRule>

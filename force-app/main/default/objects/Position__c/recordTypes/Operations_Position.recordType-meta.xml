@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Operations_Position</fullName>
+    <active>true</active>
+    <description>For all Operation positions</description>
+    <label>Operations Position</label>
+    <picklistValues>
+        <picklist>Functional_Area__c</picklist>
+        <values>
+            <fullName>Operations</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Staff</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Internal_English_Test__c</picklist>
+        <values>
+            <fullName>Received</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sent</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unsent</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Job_Level__c</picklist>
+        <values>
+            <fullName>Manager</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Specialist</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Trainee</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Trainee Plus</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Location__c</picklist>
+        <values>
+            <fullName>Austin%2C TX</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Boulder%2C CO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>London%2C England</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mumbai%2C India</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New York%2C NY</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>San Francisco%2C CA</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Sydney%2C Australia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tokyo%2C Japan</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Position_Life_Cycle__c</picklist>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Trainee</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Status__c</picklist>
+        <values>
+            <fullName>Cancelled</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Closed - Filled</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Draft</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Open - Approved</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Type__c</picklist>
+        <values>
+            <fullName>Contractor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Full Time</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Internship</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Part Time</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

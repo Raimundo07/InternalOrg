@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FOF_Practice_Tests</fullName>
+    <fields>Title__c</fields>
+    <fields>FOF_Practice_Tests_Score__c</fields>
+    <label>FOF Practice Tests</label>
+</CompactLayout>

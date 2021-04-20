@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PathAssistant xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <entityName>Job_Application__c</entityName>
+    <fieldName>Picklist__c</fieldName>
+    <masterLabel>Application path</masterLabel>
+    <pathAssistantSteps>
+        <picklistValueName>Applied</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>Comments__c</fieldNames>
+        <info>&lt;p&gt;The applicant is contacted to continue with the hiring process.&lt;/p&gt;</info>
+        <picklistValueName>Contacted</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>Hiring_Comments__c</fieldNames>
+        <info>&lt;p&gt;The applicant has successfully exceeded the hiring process!&lt;/p&gt;</info>
+        <picklistValueName>Hired</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <info>&lt;p&gt;The applicant is interviewed to determine the final steps for the hiring process.&lt;/p&gt;</info>
+        <picklistValueName>In_Process</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <info>&lt;p&gt;After getting in contact with the applicant, he showed a high interest to work for the company.&lt;/p&gt;</info>
+        <picklistValueName>Interested</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>Not_Interested_Reasons__c</fieldNames>
+        <info>&lt;p&gt;Rejected the job offer.&lt;/p&gt;</info>
+        <picklistValueName>Not interested</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>Not_Qualified_Reason__c</fieldNames>
+        <info>&lt;p&gt;Not a competitive profile.&lt;/p&gt;</info>
+        <picklistValueName>Not_Qualified</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>Qualification_Comments__c</fieldNames>
+        <info>&lt;p&gt;The applicant has a potential profile and may be contacted for further qualifications.&lt;/p&gt;</info>
+        <picklistValueName>Qualifies</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>Rejection_Reasons__c</fieldNames>
+        <info>&lt;p&gt;No further actions needed.&lt;/p&gt;</info>
+        <picklistValueName>Rejected</picklistValueName>
+    </pathAssistantSteps>
+    <recordTypeName>Referred</recordTypeName>
+</PathAssistant>

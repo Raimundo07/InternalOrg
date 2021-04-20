@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Training_Progress__c</fullName>
+    <externalId>false</externalId>
+    <label>Training Progress</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Trailhead</fullName>
+                <default>true</default>
+                <label>Trailhead</label>
+            </value>
+            <value>
+                <fullName>Abandon</fullName>
+                <default>false</default>
+                <label>Abandon</label>
+            </value>
+            <value>
+                <fullName>Removed</fullName>
+                <default>false</default>
+                <label>Removed</label>
+            </value>
+            <value>
+                <fullName>Study_Guides_FOF</fullName>
+                <default>false</default>
+                <label>Study Guides FOF</label>
+            </value>
+            <value>
+                <fullName>Practice Test FOF</fullName>
+                <default>false</default>
+                <label>Practice Test FOF</label>
+            </value>
+            <value>
+                <fullName>Mock Test</fullName>
+                <default>false</default>
+                <label>Mock Test</label>
+            </value>
+            <value>
+                <fullName>Certification Exam</fullName>
+                <default>false</default>
+                <label>Certification Exam</label>
+            </value>
+            <value>
+                <fullName>Completed</fullName>
+                <default>false</default>
+                <label>Completed</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

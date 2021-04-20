@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Stage__c</fullName>
+    <externalId>false</externalId>
+    <label>Stage</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Informative Session</fullName>
+                <default>true</default>
+                <label>Informative Session</label>
+            </value>
+            <value>
+                <fullName>Scheduled</fullName>
+                <default>false</default>
+                <label>Scheduled</label>
+            </value>
+            <value>
+                <fullName>Trailhead</fullName>
+                <default>false</default>
+                <label>Trailhead</label>
+            </value>
+            <value>
+                <fullName>EAX_Exam</fullName>
+                <default>false</default>
+                <label>EAX Exam</label>
+            </value>
+            <value>
+                <fullName>Study Guides Focus on Force</fullName>
+                <default>false</default>
+                <label>Study Guides Focus on Force</label>
+            </value>
+            <value>
+                <fullName>Practice_Exams_Focus_on_Force</fullName>
+                <default>false</default>
+                <label>Practice Exams Focus on Force</label>
+            </value>
+            <value>
+                <fullName>Mock_Test</fullName>
+                <default>false</default>
+                <label>Mock Test</label>
+            </value>
+            <value>
+                <fullName>Certification_Exam</fullName>
+                <default>false</default>
+                <label>Certification Exam</label>
+            </value>
+            <value>
+                <fullName>Closed</fullName>
+                <default>false</default>
+                <label>Closed</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

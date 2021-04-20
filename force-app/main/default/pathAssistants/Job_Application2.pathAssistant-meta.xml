@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PathAssistant xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <entityName>Job_Application__c</entityName>
+    <fieldName>Picklist__c</fieldName>
+    <masterLabel>Job Application2</masterLabel>
+    <pathAssistantSteps>
+        <fieldNames>Comments__c</fieldNames>
+        <picklistValueName>Contacted</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>Hiring_Comments__c</fieldNames>
+        <picklistValueName>Hired</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>Not_Interested_Reasons__c</fieldNames>
+        <picklistValueName>Not interested</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>Not_Qualified_Reason__c</fieldNames>
+        <picklistValueName>Not_Qualified</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>Qualification_Comments__c</fieldNames>
+        <picklistValueName>Qualifies</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>Rejection_Reasons__c</fieldNames>
+        <picklistValueName>Rejected</picklistValueName>
+    </pathAssistantSteps>
+    <recordTypeName>Not_Referred</recordTypeName>
+</PathAssistant>

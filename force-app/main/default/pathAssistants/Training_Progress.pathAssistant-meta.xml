@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PathAssistant xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <entityName>Trainee_Group_Member__c</entityName>
+    <fieldName>Training_Progress__c</fieldName>
+    <masterLabel>Training Progress</masterLabel>
+    <pathAssistantSteps>
+        <fieldNames>Abandon_Reasons__c</fieldNames>
+        <picklistValueName>Abandon</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>Certification_Comments__c</fieldNames>
+        <picklistValueName>Certification Exam</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>Completion_Comments__c</fieldNames>
+        <picklistValueName>Completed</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>Mock_Comments__c</fieldNames>
+        <picklistValueName>Mock Test</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>Practice_Exams_Comments__c</fieldNames>
+        <picklistValueName>Practice Test FOF</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>Removal_Reasons__c</fieldNames>
+        <picklistValueName>Removed</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>Study_Guides_Comments__c</fieldNames>
+        <picklistValueName>Study_Guides_FOF</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>Trailhead_Progress__c</fieldNames>
+        <fieldNames>Points__c</fieldNames>
+        <fieldNames>Bonus__c</fieldNames>
+        <fieldNames>Trailhead_Comments__c</fieldNames>
+        <picklistValueName>Trailhead</picklistValueName>
+    </pathAssistantSteps>
+    <recordTypeName>__MASTER__</recordTypeName>
+</PathAssistant>

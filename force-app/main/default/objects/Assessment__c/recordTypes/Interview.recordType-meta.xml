@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Interview</fullName>
+    <active>true</active>
+    <compactLayoutAssignment>Interviews</compactLayoutAssignment>
+    <label>Interview</label>
+    <picklistValues>
+        <picklist>English_Level_Score__c</picklist>
+        <values>
+            <fullName>- None -</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>English_Test_has_been_booked__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Interview_Status__c</picklist>
+        <values>
+            <fullName>Approved</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Approved</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Scheduled</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Qualifies__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Score_Status__c</picklist>
+        <values>
+            <fullName>Failed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Passed</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Title__c</picklist>
+        <values>
+            <fullName>EAX English Test</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FOF Practice Exams</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FOF_Study_Guides</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Interview</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mock Test</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Psychometrics Test</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Salesforce_Certification_Exam</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

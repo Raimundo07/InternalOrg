@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PathAssistant xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <entityName>Candidate__c</entityName>
+    <fieldName>Status__c</fieldName>
+    <masterLabel>Candidate Trainee</masterLabel>
+    <pathAssistantSteps>
+        <fieldNames>Bench_Elegible_Comments__c</fieldNames>
+        <picklistValueName>Bench_Eligible</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>Bench_Comments__c</fieldNames>
+        <picklistValueName>Bench_In_Process</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>Dropped_Out_Reason__c</fieldNames>
+        <picklistValueName>Dropped Out</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>English_Rescue_Comments__c</fieldNames>
+        <picklistValueName>English Rescue</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>Interview_Comments__c</fieldNames>
+        <picklistValueName>Interview</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>Stand_by_Comments__c</fieldNames>
+        <picklistValueName>Stand by</picklistValueName>
+    </pathAssistantSteps>
+    <recordTypeName>Trainee</recordTypeName>
+</PathAssistant>

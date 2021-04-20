@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PathAssistant xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <entityName>Candidate__c</entityName>
+    <fieldName>Candidate_Status__c</fieldName>
+    <masterLabel>Other Candidate</masterLabel>
+    <pathAssistantSteps>
+        <fieldNames>Approved_comments__c</fieldNames>
+        <picklistValueName>Approved</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>First_Contact_Comments__c</fieldNames>
+        <picklistValueName>First Contact</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>Int_Date__c</fieldNames>
+        <fieldNames>Interview_Status__c</fieldNames>
+        <fieldNames>Interview_Comments__c</fieldNames>
+        <picklistValueName>HR Interview</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>English_Evaluation_Comments__c</fieldNames>
+        <picklistValueName>Internal English Evaluation</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>M_Interview_Status__c</fieldNames>
+        <fieldNames>Manager_Comments__c</fieldNames>
+        <picklistValueName>Manager Interview</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>Not_Approved_Comments__c</fieldNames>
+        <picklistValueName>Not Approved</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>Not_Interested_Comments__c</fieldNames>
+        <picklistValueName>Not Interested</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>Psyco_Test_Statuc__c</fieldNames>
+        <fieldNames>Test_Score__c</fieldNames>
+        <fieldNames>Test_Comments__c</fieldNames>
+        <picklistValueName>Psychometrics Tests</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>Technical_Test_Comments__c</fieldNames>
+        <fieldNames>Technical_Test_Status__c</fieldNames>
+        <picklistValueName>Technical Test</picklistValueName>
+    </pathAssistantSteps>
+    <recordTypeName>Other</recordTypeName>
+</PathAssistant>

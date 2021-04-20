@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Candidate_Status__c</fullName>
+    <externalId>false</externalId>
+    <label>Candidate Status</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>First Contact</fullName>
+                <default>true</default>
+                <label>First Contact</label>
+            </value>
+            <value>
+                <fullName>Internal English Evaluation</fullName>
+                <default>false</default>
+                <label>Internal English Evaluation</label>
+            </value>
+            <value>
+                <fullName>Technical Test</fullName>
+                <default>false</default>
+                <label>Technical Test</label>
+            </value>
+            <value>
+                <fullName>HR Interview</fullName>
+                <default>false</default>
+                <label>HR Interview</label>
+            </value>
+            <value>
+                <fullName>Manager Interview</fullName>
+                <default>false</default>
+                <label>Manager Interview</label>
+            </value>
+            <value>
+                <fullName>Psychometrics Tests</fullName>
+                <default>false</default>
+                <label>Psychometrics Tests</label>
+            </value>
+            <value>
+                <fullName>Approved</fullName>
+                <default>false</default>
+                <label>Approved</label>
+            </value>
+            <value>
+                <fullName>Not Approved</fullName>
+                <default>false</default>
+                <label>Not Approved</label>
+            </value>
+            <value>
+                <fullName>Not Interested</fullName>
+                <default>false</default>
+                <label>Not Interested</label>
+            </value>
+            <value>
+                <fullName>Hired</fullName>
+                <default>false</default>
+                <label>Hired</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

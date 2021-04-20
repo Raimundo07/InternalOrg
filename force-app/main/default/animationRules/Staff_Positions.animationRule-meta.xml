@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AnimationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <animationFrequency>rarely</animationFrequency>
+    <developerName>Staff_Positions</developerName>
+    <isActive>true</isActive>
+    <masterLabel>Staff Positions</masterLabel>
+    <recordTypeContext>Custom</recordTypeContext>
+    <recordTypeName>Staff_Position</recordTypeName>
+    <sobjectType>Position__c</sobjectType>
+    <targetField>Status__c</targetField>
+    <targetFieldChangeToValues>Open - Approved</targetFieldChangeToValues>
+</AnimationRule>
