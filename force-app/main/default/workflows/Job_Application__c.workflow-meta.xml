@@ -5,11 +5,11 @@
         <description>Missing Job Position in Salesforce</description>
         <protected>false</protected>
         <recipients>
-            <recipient>HR_Recruitment</recipient>
-            <type>group</type>
+            <recipient>raimundo@adap.com</recipient>
+            <type>user</type>
         </recipients>
         <senderAddress>contactos@adaptasv.com</senderAddress>
         <senderType>OrgWideEmailAddress</senderType>
-        <template>unfiled$public/No_Position_Found</template>
+        <template>HR_Recruitment_Templates/Unassigned_Position_for_New_Job_Application</template>
     </alerts>
 </Workflow>
